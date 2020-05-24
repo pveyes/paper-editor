@@ -1,0 +1,44 @@
+:local(.container) {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  line-height: 22px;
+  margin: 5px 0;
+  cursor: default;
+}
+
+:local(.radio) {
+  vertical-align: middle;
+  width: 16px;
+  height: 16px;
+  margin-right: 12px;
+  background-color: #fff;
+  border: 1px solid rgba(0,0,0,.15);
+  border-radius: 100%;
+}
+
+:local(.radioSelected) {
+  composes: radio;
+}
+
+:local(.radioSelected::after) {
+  content: '';
+  position: relative;
+  width: 12px;
+  height: 12px;
+  left: 2px;
+  top: 2px;
+  display: block;
+  background-color: #02b875;
+  border-radius: 100%;
+}
+
+:local(.display) {
+  flex-shrink: 100;
+  display: flex;
+  align-items: center;
+}
+
+:local(.display svg) {
+  margin-right: 5px;
+}

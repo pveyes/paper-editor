@@ -1,0 +1,56 @@
+.PostEditEntry {
+  padding: 25px 0 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, .05);
+  max-width: 840px;
+}
+
+.PostEditEntry-title {
+  margin: 0;
+  letter-spacing: -.02em;
+  font-size: 24px;
+}
+
+.PostEditEntry-smallExcerpt {
+  font-size: 16px;
+  line-height: 1.5;
+  color: rgba(0, 0, 0, .7);
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.PostEditEntry-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.PostEditEntry-meta {
+  display: flex;
+  font-weight: 400;
+  font-size: 14px;
+  color: rgba(0, 0, 0, .44);
+}
+
+.PostEditEntry-unlisted svg {
+  margin-right: 5px;
+}
+
+.PostEditEntry-actionEdit {
+  text-decoration: none;
+  font-size: 14px;
+  color: rgba(0, 0, 0, .6);
+}
+
+.PostEditEntry-actionEdit:hover {
+  color: rgba(0, 0, 0, .8);
+}
+
+.PostEditEntry-actionDelete {
+  text-decoration: none;
+  font-size: 14px;
+  color: rgba(255, 0, 0, .6);
+}
+
+.PostEditEntry-actionDelete:hover {
+  color: rgba(255, 0, 0, .8);
+}

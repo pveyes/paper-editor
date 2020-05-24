@@ -1,0 +1,8 @@
+.EditorToolbarSpacer {
+  width: 2px;
+  height: 1em;
+  margin: 0 10px;
+  background-color: #666;
+  display: block;
+  vertical-align: middle;
+}

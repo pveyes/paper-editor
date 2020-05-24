@@ -1,0 +1,8 @@
+.EditorStyleButton {
+  width: 38px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  display: block;
+  cursor: pointer;
+}

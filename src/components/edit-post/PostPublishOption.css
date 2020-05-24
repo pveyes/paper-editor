@@ -1,0 +1,21 @@
+:local(.publishTitle) {
+  color: rgba(0, 0, 0, .8);
+  font-size: 18px;
+  line-height: 1.4;
+  margin-bottom: 14px;
+}
+
+:local(.tagInput) {
+  height: 75px;
+  outline: none;
+  border-bottom: 1px solid rgba(0, 0, 0, .05);
+  margin: 14px 0;
+  border: 0;
+  width: 100%;
+  resize: none;
+}
+
+:local(.publishButtonFooter) {
+  display: flex;
+  justify-content: space-between;
+}

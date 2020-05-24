@@ -1,0 +1,56 @@
+{
+  "name": "@paper/editor",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "auth0-js": "^7.2.1",
+    "classnames": "^2.2.5",
+    "draft-js": "^0.10.1",
+    "draft-js-export-html": "^0.5.4",
+    "draft-js-import-html": "^0.3.2",
+    "lodash.debounce": "^4.0.8",
+    "moment": "^2.15.1",
+    "prop-types": "^15.5.8",
+    "pushstate-server": "^2.1.0",
+    "qs": "^6.3.0",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "react-redux": "^4.4.5",
+    "react-router-dom": "^4.1.1",
+    "redux": "^3.6.0",
+    "redux-thunk": "^2.1.0",
+    "whatwg-fetch": "^1.0.0"
+  },
+  "devDependencies": {
+    "react-scripts": "^1.0.7"
+  },
+  "marlint": {
+    "envs": [
+      "es6",
+      "browser"
+    ],
+    "rules": {
+      "no-console": "off",
+      "react/jsx-no-bind": [
+        "error",
+        {
+          "ignoreRefs": true,
+          "allowArrowFunctions": true,
+          "allowBind": false
+        }
+      ],
+      "prefer-template": "off",
+      "react/jsx-first-prop-new-line": "off",
+      "class-methods-use-this": "off",
+      "react/no-did-mount-set-state": "off",
+      "jsx-a11y/onclick-has-focus": "off",
+      "jsx-a11y/onclick-has-role": "off"
+    }
+  }
+}

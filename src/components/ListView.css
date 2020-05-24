@@ -1,0 +1,58 @@
+.ListView-buttonSet {
+  position: absolute;
+  right: 0;
+  top: 108px;
+}
+
+@keyframes flash {
+    0% { opacity: 0; transform: translateY(-10px); }
+    20% { opacity: 1; transform: translateY(0px); }
+    80% { opacity: 1; transform: translateY(0px); }
+    100% { opacity: 0; transform: translateY(-10px); }
+}
+
+.ListView-flash {
+  position: fixed;
+  top: 65px;
+  background-color: #5c5;
+  left: 0;
+  right: 0;
+  padding: 20px;
+  opacity: 0;
+  animation-name: flash;
+  animation-duration: 5s;
+  pointer-events: none;
+}
+
+.ListView-flash span {
+  display: block;
+  width: 1000px;
+  margin: 0 auto;
+  color: #fff;
+  font-size: 14px;
+}
+
+.PostList-category {
+  border-bottom: 1px solid rgba(0, 0, 0, .05);
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+:local(.categoryClassName) {
+  padding-bottom: 15px;
+  display: inline-block;
+  margin-right: 20px;
+  cursor: pointer;
+  color: rgba(0, 0, 0, .44)
+}
+
+:local(.categoryClassNameActive) {
+  composes: categoryClassName;
+  font-weight: 600;
+  color: rgba(0, 0, 0, .8);
+  border-bottom: 1px solid rgba(0, 0, 0, .8);
+}
+
+.PostList-categoryCount {
+  margin-left: 5px;
+}

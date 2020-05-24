@@ -1,0 +1,10 @@
+:local(.button) {
+  color: rgba(0, 0, 0, .44);
+  background-color: transparent;
+  cursor: pointer;
+  border: 0;
+}
+
+:local(.button:hover) {
+  color: rgba(0, 0, 0, .6);
+}

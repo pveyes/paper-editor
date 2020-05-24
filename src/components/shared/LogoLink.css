@@ -1,0 +1,9 @@
+:local(.logo) {
+  display: block;
+  width: 171px;
+  height: 65px;
+  background-image: url('./PaperLogo.svg');
+  background-size: 70% auto;
+  background-repeat: no-repeat;
+  background-position: -10px center;
+}

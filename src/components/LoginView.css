@@ -1,0 +1,35 @@
+.LoginView {
+  position: absolute;;
+  width: 300px;
+  height: 220px;
+  top: 50%;
+  left: 50%;
+  margin-top: -130px;
+  margin-left: -150px;
+}
+
+.LoginView-title {
+  margin-top: 0;
+  margin-bottom: 25px;
+  font-size: 32px;
+}
+
+.LoginView-signup {
+  padding: 10px 0;
+  text-align: center;
+  font-size: 14px;
+}
+
+.LoginView-signup a {
+  color: #00ab6b;
+  text-decoration: none;
+}
+
+.LoginView-error {
+  background-color: #c40;
+  color: #fff;
+  font-size: 14px;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 2px;
+}

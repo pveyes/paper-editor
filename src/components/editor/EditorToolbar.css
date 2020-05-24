@@ -1,0 +1,31 @@
+:local(.editorToolbar) {
+  border-radius: 5px;
+  background-color: #333;
+  color: #fff;
+  padding: 7px 11px;
+  display: flex;
+  opacity: 0;
+  pointer-events: none;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+}
+
+:local(.editorToolbarActive) {
+  composes: editorToolbar;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* arrow down */
+:local(.editorToolbar::after) {
+  content: "";
+  width: 0px;
+  height: 0px;
+  border: 7px solid transparent;
+  border-top-color: #333;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -9px; /* half border + half padding */
+}

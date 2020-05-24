@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="170px" height="65px" viewBox="0 0 170 65" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Logo Header</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="33" height="40"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="-2" y="-2" width="37" height="44">
+            <rect x="-2" y="-2" width="37" height="44" fill="white"></rect>
+            <use xlink:href="#path-1" fill="black"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Logo-Header">
+            <g id="Paper-Logo" transform="translate(18.000000, 13.000000)">
+                <use id="Rectangle" stroke="#333333" mask="url(#mask-2)" stroke-width="4" xlink:href="#path-1"></use>
+                <path d="M3.125,4 L27.875,4" id="Line" stroke="#AAAAAA" stroke-width="2" stroke-linecap="square"></path>
+                <path d="M3.125,11 L21.275,11" id="Line" stroke="#AAAAAA" stroke-width="2" stroke-linecap="square"></path>
+                <path d="M3.125,15 L22.925,15" id="Line" stroke="#AAAAAA" stroke-width="2" stroke-linecap="square"></path>
+                <path d="M3.125,19 L17.975,19" id="Line" stroke="#AAAAAA" stroke-width="2" stroke-linecap="square"></path>
+                <path d="M3.125,24 L24.575,24" id="Line" stroke="#AAAAAA" stroke-width="2" stroke-linecap="square"></path>
+                <path d="M3.125,28 L22.925,28" id="Line" stroke="#AAAAAA" stroke-width="2" stroke-linecap="square"></path>
+                <path d="M3.125,32 L27.875,32" id="Line" stroke="#AAAAAA" stroke-width="2" stroke-linecap="square"></path>
+                <path d="M3.125,36 L11.375,36" id="Line" stroke="#AAAAAA" stroke-width="2" stroke-linecap="square"></path>
+            </g>
+            <text id="Paper" font-family="Hack-Regular, Hack" font-size="36" font-weight="normal" letter-spacing="-2.44000006" fill="#333333">
+                <tspan x="61.6954298" y="47">Pape</tspan>
+                <tspan x="138.630742" y="47">r</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,19 @@
+:local(.divider) {
+  margin-top: 52px;
+  margin-bottom: 42px;
+  display: block;
+  border: 0;
+  text-align: center;
+}
+
+:local(.divider::before) {
+  content: '...';
+  display: inline-block;
+  color: rgba(0, 0, 0, .6);
+  position: relative;
+  font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 20px;
+  letter-spacing: .9em;
+}

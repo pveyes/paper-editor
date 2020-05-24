@@ -1,0 +1,15 @@
+:local(.button) {
+  composes: headerTextAction from './EditorHeader.css';
+}
+
+:local(.text) {
+  vertical-align: middle;
+  margin-right: 3px;
+}
+
+:local(.arrow) {
+  composes: svgPrimary from '../../index.css';
+  height: 35px;
+  display: inline-block;
+  vertical-align: middle;
+}

@@ -1,0 +1,38 @@
+:local(.block) {
+  margin-bottom: 29px;
+}
+
+:local(.paragraph) {
+  composes: block;
+}
+
+:local(.code) {
+  composes: block;
+  padding: 5px 15px;
+  background-color: #fcfcfc;
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-size: .7em;
+  line-height: 2;
+  border: 1px solid #eee;
+  overflow-x: auto;
+}
+
+:local(.heading) {
+  font-family: 'Open Sans', sans-serif;
+}
+
+:local(.h1) {
+  composes: heading;
+  font-size: 29px;
+  letter-spacing: -0.02em;
+}
+
+:local(.h2) {
+  composes: heading;
+  font-size: 22px;
+  letter-spacing: -0.018em;
+}
+
+:local(.atomic) {
+  margin: 0 0 29px 0;
+}

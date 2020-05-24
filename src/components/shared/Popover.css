@@ -1,0 +1,68 @@
+:local(.container) {
+  position: absolute;
+  color: rgba(0, 0, 0, .6);
+  line-height: 1.4;
+  font-size: 12px;
+  cursor: auto;
+  opacity: 0;
+  pointer-events: none;
+}
+
+:local(.containerActive) {
+  composes: container;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+:local(.arrow) {
+  position: absolute;
+  top: -14px;
+  left: 50%;
+  margin-left: -13px;
+  clip: rect(0 18px 14px -4px);
+}
+
+:local(.arrow::after) {
+  content: '';
+  width: 14px;
+  height: 14px;
+  transform: rotate(45deg) translate(6px,6px);
+  box-shadow: -1px -1px 1px -1px rgba(0,0,0,.44);  display: block;
+  background: #fff;
+}
+
+:local(.inner) {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, .25), 0 0 1px rgba(0, 0, 0, .35);
+  background: #fff;
+  border-radius: 4px;
+  padding: 20px;
+  min-width: 220px;
+  max-width: 280px;
+}
+
+.Popover-field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+}
+
+.Popover-field label {
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: rgba(0, 0, 0, .8);
+}
+
+.Popover-field input,
+.Popover-field textarea {
+  border: 0;
+  padding: 5px 0;
+  font-size: 12px;
+  line-height: 1.5;
+  color: rgba(0, 0, 0, .6);
+  outline: none;
+}
+
+.Popover-field textarea {
+  resize: none;
+}

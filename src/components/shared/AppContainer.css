@@ -1,0 +1,14 @@
+:local(.base) {
+  margin: 0 auto;
+  position: relative;
+}
+
+:local(.default) {
+  composes: base;
+  width: 700px;
+}
+
+:local(.wide) {
+  composes: default;
+  width: 1000px;
+}

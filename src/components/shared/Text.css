@@ -1,0 +1,13 @@
+:local(.default) {
+  display: inline-block;
+}
+
+:local(.inline) {
+  composes: default;
+  display: inline;
+}
+
+:local(.primary) {
+  composes: default;
+  composes: textPrimary from '../../index.css';
+}

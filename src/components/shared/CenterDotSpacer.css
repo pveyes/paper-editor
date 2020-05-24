@@ -1,0 +1,10 @@
+.CenterDotSpacer {
+  padding: 0 .45em;
+  display: inline-block;
+  line-height: 1.1;
+  color: rgba(0, 0, 0, .44);
+}
+
+.CenterDotSpacer::after {
+  content: "·";
+}

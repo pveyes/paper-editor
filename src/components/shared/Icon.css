@@ -1,0 +1,84 @@
+:local(.base) {
+  display: inline-block;
+  position: relative;
+  font-family: 'FontAwesome';
+  font-size: .9em;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:local(.active) {
+  color: #3eee85;
+}
+
+:local(.bold) {
+  composes: base;
+}
+
+:local(.bold::before) {
+  content: "\f032"
+}
+
+:local(.italic) {
+  composes: base;
+}
+
+:local(.italic::before) {
+  content: "\f033"
+}
+
+:local(.link) {
+  composes: base;
+}
+
+:local(.link::before) {
+  content: "\f0c1"
+}
+
+:local(.heading) {
+  composes: base;
+  padding-right: .3em;
+}
+
+:local(.heading::before) {
+  content: "\f1dc"
+}
+
+:local(.heading::after) {
+  position: absolute;
+  top: .3em;
+  font-size: .7em;
+}
+
+:local(.h1) {
+  composes: heading;
+}
+
+:local(.h2) {
+  composes: heading;
+}
+
+:local(.h1::after) {
+  content: "1";
+}
+
+:local(.h2::after) {
+  content: "2";
+}
+
+:local(.blockquote) {
+  composes: base;
+}
+
+:local(.blockquote::before) {
+  content: "\f10d"
+}
+
+:local(.codeBlock) {
+  composes: base;
+}
+
+:local(.codeBlock::before) {
+  content: "\f121";
+}

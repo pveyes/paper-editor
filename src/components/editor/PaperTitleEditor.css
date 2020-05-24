@@ -1,0 +1,10 @@
+.PaperTitleEditor {
+  font-weight: 700;
+  font-size: 37px;
+  letter-spacing: -.06em;
+  line-height: 1.15em;
+  outline: none;
+  color: rgba(0,0,0,.8);
+  margin-bottom: 1rem;
+  font-family: 'Open Sans', sans-serif;
+}

@@ -1,0 +1,9 @@
+.PaperEditor {
+  font-family: 'Merriweather', serif;
+  font-size: 1em;
+  font-weight: 300;
+  margin-left: 5px;
+  line-height: 1.75em;
+  text-rendering: geometricPrecision;
+  position: relative;
+}
